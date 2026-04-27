@@ -4,7 +4,7 @@
 This repository contains the official Proof of Concept (PoC) for a high-severity security guardrail bypass in the Sei Network `bank` precompile. The flaw allows unauthorized transfer of restricted tokens by circumventing the `DenomAllowList` enforcement.
 
 ## Project Structure
-- `IMMUNEFI_SUBMISSION.md`: Formal bug report (Hackerdemy Standard).
+- `IMMUNEFI_SUBMISSION.md`: Formal bug report.
 - `test/allow_list_bypass_test.go`: Go-based reproduction script.
 - `exploit_results_final.txt`: Verified test output proving the bypass.
 
